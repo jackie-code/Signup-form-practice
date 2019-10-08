@@ -1,0 +1,70 @@
+body * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border:0;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-color: cornflowerblue;
+}
+
+.logo {
+  height: 35px;
+  margin-top: 4%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.whitebox {
+  margin-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  width: 400px;
+  padding: 40px;
+  border-radius: 3px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+ margin: 15px 0;
+}
+
+.signup {
+  background-color: rgb(107, 194, 125);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.signup:hover {
+  background-color: rgb(68, 130, 73);
+}
+
+.question {
+color: white;
+text-align: center;
+margin-top: 20px;
+font-size: 17px;
+}
+
+a {
+  color: inherit;
+}
+
+input, button {
+  width: 320px;
+  height: 55px;
+  border: 2px solid rgb(223, 223, 223);
+  padding: 15px;
+}
